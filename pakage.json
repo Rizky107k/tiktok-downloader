@@ -1,0 +1,18 @@
+
+{
+  "name": "tiktok-downloader",
+  "version": "1.0.0",
+  "description": "TikTok Downloader API for Rolleys",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@coflyn/scrapr": "1.4.0",
+    "express": "^4.21.2"
+  }
+}
